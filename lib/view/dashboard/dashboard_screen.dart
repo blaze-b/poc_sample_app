@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_snake_navigationbar/flutter_snake_navigationbar.dart';
 import 'package:get/get.dart';
 import 'package:poc_sample_app/controller/dashboard_controller.dart';
+import 'package:poc_sample_app/view/home/home_screen.dart';
 
 class DashboardScreen extends StatelessWidget {
   const DashboardScreen({Key? key}) : super(key: key);
@@ -15,9 +16,7 @@ class DashboardScreen extends StatelessWidget {
                 child: IndexedStack(
                   index: controller.tabIndex,
                   children: [
-                    Container(
-                      color: Colors.cyanAccent,
-                    ),
+                    const HomeScreen(),
                     Container(
                       color: Colors.red,
                     ),
