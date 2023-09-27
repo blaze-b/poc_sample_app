@@ -39,8 +39,11 @@ dependencies:
   # The following dependencies for the get calls
   get: ^4.6.6
 
- # the following dependency for the snake navigation bar setup
+  # the following dependency for the snake navigation bar setup
   flutter_snake_navigationbar: ^0.6.1
+
+  # flutter badges
+  badges: ^3.1.2
 
 
 
